@@ -1,0 +1,153 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* header section start here */
+header{
+    width: 100%;
+    height: 40px;
+    background: rgb(26, 26, 156);
+    color: white;
+    font-weight: 400;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+header .ind{
+    float: left;
+    width: 70%;
+    display: flex;
+}
+header .call{
+    float: right;
+    width: 30%;
+    display: flex;  
+}
+/* header section end here */
+
+/* main section start here */
+main .text{
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    text-align: left;
+    color:white;
+    z-index: 1;
+    font-size: xx-large;
+}  
+main form{
+    width: 30%;
+    top: 20%;
+    right: 12%;
+    height: 400px;
+    float: right;
+    background: rgb(116, 116, 238);
+    position: absolute;
+    text-align: center;
+    color:white;
+    z-index: 9;
+    size: 160px;  
+}
+.flname{
+    position: absolute;
+    top: 40px;
+    left: 55px;
+    height: 70px;
+    width: 50px;
+}
+
+/* main section end here */
+
+/* grid section start here */
+
+.item1{
+    display: grid;
+    display: inline; 
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 150px;
+    float: left;
+    justify-content: center;
+    width: 33%;
+}
+.para{
+    text-align: left;
+    padding-right: 20px;
+}
+.item2{
+    display: grid;
+    display: inline; 
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 90px;
+    float:left;
+    justify-content: center;
+    width: 33%;
+}
+.item3{
+    display: grid;
+    display: inline;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 40px; 
+    float: left;
+    justify-content: center;
+    width: 33%;
+}
+/* grid section end here */
+
+/* about us section start */
+.about{
+    background: rgb(56, 56, 110);
+    text-align: center;
+    color: white;
+    padding: 60px 110px;
+}
+
+/* about us section end */
+
+/* loremimg section start */
+
+.imagea{
+    padding-top: 60px;
+    padding-left: 120px;
+    float: left;
+    width: 40%;
+    justify-content: center;
+}
+.texta{
+    float: right;
+    padding-top: 100px;
+    padding-right: 100px;
+    width: 60%;
+    
+}
+
+.imageb{
+    padding-bottom: 60px;
+    padding-right: 120px;
+    float: right;
+    justify-content: center;
+    width: 40%;
+}
+.textb{
+    float: left;
+    justify-content: center;
+    width: 60%;
+    padding-left: 100px;
+    padding-top: 80px;
+    padding-right: 40px;
+}
+/* loremimg section end */
+
+/* footer start here */
+footer{
+    background: rgb(56, 56, 110);
+    color: white;
+    width: 100%;
+    height: 40px;
+    padding: 9px 0px;
+    text-align: center;
+}
+/* footer end here */
