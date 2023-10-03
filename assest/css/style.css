@@ -3,61 +3,59 @@
     padding: 0px;
     box-sizing: border-box;
 }
-/* header section start here */
+/* header section start */
 header{
     width: 100%;
-    height: 40px;
-    background: rgb(26, 26, 156);
-    color: white;
-    font-weight: 400;
+    height: 50px;
+    color: #fff;
     display: flex;
-    padding-top: 10px;
-    padding-left: 50px;
+    padding: 0px 100px;
+    align-items: center;
+    background: #022D7C;
+    justify-content: space-between;
 }
-header .ind{
-    float: left;
-    width: 70%;
-    display: flex;
-}
-header .call{
-    float: right;
-    width: 30%;
-    display: flex;  
-}
-/* header section end here */
+/* header section end */
 
-/* main section start here */
-main .text{
-    position: absolute;
-    top: 50%;
-    left: 12%;
-    text-align: left;
-    color:white;
-    z-index: 1;
-    font-size: xx-large;
-}  
-main form{
-    width: 30%;
-    top: 20%;
-    right: 12%;
-    height: 400px;
-    float: right;
-    background: rgb(116, 116, 238);
-    position: absolute;
+/* banner section start */
+.banner{
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    display: flex;
+    padding: 0px 100px;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/buildingsnight.jpg);
+    background-size: cover;
+}
+.banner h2{
+    font-size: 45px;
+    font-weight: normal;
+}
+.banner h2 span{
+    display: block;
+    font-size: 67px;
+    font-weight: 600;
+}
+.banner aside{
+    padding: 20px;
+    border-radius: 7px;
     text-align: center;
-    color:white;
-    z-index: 9;
-    size: 160px;  
+    background: #022D7C;
 }
-.flname{
-    position: absolute;
-    top: 40px;
-    left: 55px;
-    height: 70px;
-    width: 50px;
+.banner aside input[type],
+.banner aside button{
+    width: 100%;
+    margin: 7px;
+    height: 50px;
 }
-
-/* main section end here */
+.banner aside textarea{
+    width: 100%;
+    height: 120px;
+    margin: 7px;
+    text-align: left;
+}
+/* banner section end */
 
 /* grid section start here */
 
