@@ -57,53 +57,58 @@ header{
 }
 /* banner section end */
 
-/* grid section start here */
-
-.item1{
-    display: grid;
-    display: inline; 
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-left: 150px;
-    float: left;
-    justify-content: center;
-    width: 33%;
+/* feature section start */
+.feature{
+    width: 100%;
+    display: flex;
+    color: #022D7C;
+    padding: 80px 100px;
+    justify-content: space-between;
 }
-.para{
+.feature div{
+    width: 90%;
+}
+.feature div h3{
+    font-size: 25px;
+    margin-bottom: 4px;
     text-align: left;
-    padding-right: 20px;
 }
-.item2{
-    display: grid;
-    display: inline; 
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-left: 90px;
-    float:left;
-    justify-content: center;
-    width: 33%;
+.feature div p{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 4px;
+    font-weight: normal;
 }
-.item3{
-    display: grid;
-    display: inline;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-left: 40px; 
-    float: left;
-    justify-content: center;
-    width: 33%;
-}
-/* grid section end here */
+/* feature section end */
 
-/* about us section start */
-.about{
-    background: rgb(56, 56, 110);
+/* about us section start here */
+.aboutus{
+    width: 100%;
+    height: auto;
+    color: #fff;
     text-align: center;
-    color: white;
-    padding: 60px 110px;
+    padding: 50px 100px;
+    background: #022D7C;
 }
-
-/* about us section end */
+.aboutus h2{
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+.aboutus p{
+    font-size: 18px;
+    font-weight: normal;
+}
+.aboutus button{
+    margin-top: 18px;
+    padding: 15px 140px;
+    border-radius: 5px;
+    background: none;
+    color: #fff;
+    font-size: 17px;
+    border-color: #fff;
+    border-width: 2px;
+}
+/* about us section end here */
 
 /* loremimg section start */
 
@@ -119,7 +124,9 @@ header{
     padding-top: 100px;
     padding-right: 100px;
     width: 60%;
-    
+    letter-spacing: 1px;
+    font-size: 19px;
+    font-weight: normal;
 }
 
 .imageb{
@@ -136,6 +143,9 @@ header{
     padding-left: 100px;
     padding-top: 80px;
     padding-right: 40px;
+    letter-spacing: 1px;
+    font-size: 19px;
+    font-weight: normal;
 }
 /* loremimg section end */
 
@@ -147,5 +157,8 @@ footer{
     height: 40px;
     padding: 9px 0px;
     text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: normal;
 }
 /* footer end here */
