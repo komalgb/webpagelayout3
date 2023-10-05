@@ -110,44 +110,26 @@ header{
 }
 /* about us section end here */
 
-/* loremimg section start */
-
-.imagea{
-    padding-top: 60px;
-    padding-left: 120px;
-    float: left;
-    width: 40%;
-    justify-content: center;
+/* Our Service Section Start Here */
+.table{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
 }
-.texta{
-    float: right;
-    padding-top: 100px;
-    padding-right: 100px;
-    width: 60%;
-    letter-spacing: 1px;
-    font-size: 19px;
-    font-weight: normal;
+table tr td img{
+    width: 100%;
 }
-
-.imageb{
-    padding-bottom: 60px;
-    padding-right: 120px;
-    float: right;
-    justify-content: center;
-    width: 40%;
+.contenta{
+    padding-left: 20px;
+    letter-spacing: 7;
+    font-size: 18px;
 }
-.textb{
-    float: left;
-    justify-content: center;
-    width: 60%;
-    padding-left: 100px;
-    padding-top: 80px;
-    padding-right: 40px;
-    letter-spacing: 1px;
-    font-size: 19px;
-    font-weight: normal;
+.contentb{
+    padding-right: 20px;
+    letter-spacing: 7;
+    font-size: 18px;
 }
-/* loremimg section end */
+/* Our Service Section End Here */
 
 /* footer start here */
 footer{
@@ -162,3 +144,205 @@ footer{
     font-weight: normal;
 }
 /* footer end here */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header h3{
+        width:100%;
+        height: auto;
+        line-height: normal;
+    }
+    .banner{
+        width: 100%;
+        height: 300px;
+        color: #fff;
+        display: flex;
+        padding: 0px 0px;
+        align-items: center;
+        justify-content: space-between;
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/buildingsnight.jpg);
+        background-size: cover;
+    }
+    .banner h2{
+        font-size: 25px;
+        font-weight: normal;
+        text-align: center;
+        padding: 120px;
+    }
+    .banner h2 span{
+        display: block;
+        font-size: 37px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .banner aside{
+        margin-top: 97%;
+        border-radius: 7px;
+        text-align: center;
+        background: #022D7C;
+        position: absolute;
+        width:100%;
+    }
+    .banner aside input[type],
+    .banner aside button{
+        align-items: center;
+        width: 100%;
+        margin: 7px;
+        height: 30px;
+    }
+    .banner aside textarea{
+        align-items: center;
+        width: 100%;
+        height: 120px;
+        margin: 7px;
+        text-align: left;
+    }
+    .feature{
+        top:250%;
+        width: 50%;
+        display: inline-block;
+        color: #022D7C;
+        padding: 80px 100px;
+        justify-content: space-between;
+    }
+    .feature div h3{
+        font-size: 25px;
+        margin-bottom: 4px;
+        text-align: center;
+        width: 400px;
+    }
+    .feature div p{
+        font-size: 18px;
+        text-align: left;
+        margin-top: 4px;
+        margin-right: 9px;
+        font-weight: normal;
+        width: 500px;
+        height: auto;
+        padding: 10px 9px;
+    }
+    .table{
+        width: 100%;
+        height: auto;
+        padding: 0px 10px;
+    }
+    table tr td img{
+        width: 100%;
+    }
+    table img{
+        height: 250px;
+    }
+    .contenta{
+        padding-left: 20px;
+        letter-spacing: 7;
+        font-size: 18px;
+    }
+    .contentb{
+        padding-right: 20px;
+        letter-spacing: 7;
+        font-size: 18px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+    @media only screen and (min-width: 767px) {
+        header h3{
+            width:100%;
+            height: auto;
+            line-height: normal;
+        }
+        .banner{
+            width: 100%;
+            height: 300px;
+            color: #fff;
+            display: inline-block;
+            padding: 0px 0px;
+            align-items: center;
+            justify-content: space-between;
+            background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/buildingsnight.jpg);
+            background-size: cover;
+        }
+        .banner h2{
+            font-size: 25px;
+            font-weight: normal;
+            text-align: center;
+            padding: 120px;
+        }
+        .banner h2 span{
+            display: block;
+            font-size: 37px;
+            font-weight: 400;
+            text-align: center;
+        }
+        .banner aside{
+            border-radius: 7px;
+            text-align: center;
+            background: #022D7C;
+            position: absolute;
+            width:100%;
+        }
+        .banner aside input[type],
+        .banner aside button{
+            align-items: center;
+            width: 100%;
+            margin: 7px;
+            height: 30px;
+        }
+        .banner aside textarea{
+            align-items: center;
+            width: 100%;
+            height: 120px;
+            margin: 7px;
+            text-align: left;
+        }
+        .feature{
+            top:250%;
+            width: 50%;
+            display: flex;
+            color: #022D7C;
+            padding: 80px 100px;
+            justify-content: space-between;
+        }
+        .feature div h3{
+            font-size: 25px;
+            margin-bottom: 4px;
+            text-align: center;
+            width: 400px;
+        }
+        .feature div p{
+            font-size: 18px;
+            text-align: left;
+            margin-top: 4px;
+            margin-right: 9px;
+            font-weight: normal;
+            width: 500px;
+            height: auto;
+            padding: 10px 9px;
+        }
+        .table{
+            width: 100%;
+            height: auto;
+            padding: 0px 10px;
+        }
+        table tr td img{
+            width: 100%;
+        }
+        table img{
+
+            height: 250px;
+        }
+        .contenta{
+            padding-left: 20px;
+            letter-spacing: 7;
+            font-size: 18px;
+        }
+        .contentb{
+            padding-right: 20px;
+            letter-spacing: 7;
+            font-size: 18px;
+        }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
